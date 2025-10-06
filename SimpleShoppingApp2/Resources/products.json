@@ -1,0 +1,39 @@
+{
+  "products": [
+    {
+      "id": "potato",
+      "name": "Potato",
+      "price_usd": 0.95,
+      "unit": "bag",
+      "image_name": "potato"
+    },
+    {
+      "id": "eggs",
+      "name": "Eggs",
+      "price_usd": 2.1,
+      "unit": "dozen",
+      "image_name": "eggs"
+    },
+    {
+      "id": "milk",
+      "name": "Milk",
+      "price_usd": 1.3,
+      "unit": "bottle",
+      "image_name": "milk"
+    },
+    {
+      "id": "banana",
+      "name": "Banana",
+      "price_usd": 0.73,
+      "unit": "kg",
+      "image_name": "banana"
+    },
+    {
+      "id": "bread",
+      "name": "Bread",
+      "price_usd": 1.5,
+      "unit": "loaf",
+      "image_name": "bread"
+    }
+  ],
+}

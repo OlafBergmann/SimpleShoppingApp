@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDCFA11C2E9010A000C2D9EE /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = EDCFA11B2E9010A000C2D9EE /* RxCocoa */; };
+		EDCFA11E2E9010A000C2D9EE /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = EDCFA11D2E9010A000C2D9EE /* RxSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDCFA0AF2E900A4E00C2D9EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDCFA0902E900A4D00C2D9EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDCFA0972E900A4D00C2D9EE;
+			remoteInfo = SimpleShoppingApp2;
+		};
+		EDCFA0B92E900A4E00C2D9EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDCFA0902E900A4D00C2D9EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDCFA0972E900A4D00C2D9EE;
+			remoteInfo = SimpleShoppingApp2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDCFA0982E900A4D00C2D9EE /* SimpleShoppingApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleShoppingApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDCFA0AE2E900A4E00C2D9EE /* SimpleShoppingApp2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleShoppingApp2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDCFA0B82E900A4E00C2D9EE /* SimpleShoppingApp2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleShoppingApp2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		EDCFA0C02E900A4E00C2D9EE /* Exceptions for "SimpleShoppingApp2" folder in "SimpleShoppingApp2" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = EDCFA0972E900A4D00C2D9EE /* SimpleShoppingApp2 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EDCFA09A2E900A4D00C2D9EE /* SimpleShoppingApp2 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				EDCFA0C02E900A4E00C2D9EE /* Exceptions for "SimpleShoppingApp2" folder in "SimpleShoppingApp2" target */,
+			);
+			path = SimpleShoppingApp2;
+			sourceTree = "<group>";
+		};
+		EDCFA0B12E900A4E00C2D9EE /* SimpleShoppingApp2Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SimpleShoppingApp2Tests;
+			sourceTree = "<group>";
+		};
+		EDCFA0BB2E900A4E00C2D9EE /* SimpleShoppingApp2UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SimpleShoppingApp2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDCFA0952E900A4D00C2D9EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCFA11E2E9010A000C2D9EE /* RxSwift in Frameworks */,
+				EDCFA11C2E9010A000C2D9EE /* RxCocoa in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCFA0AB2E900A4E00C2D9EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCFA0B52E900A4E00C2D9EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDCFA08F2E900A4D00C2D9EE = {
+			isa = PBXGroup;
+			children = (
+				EDCFA09A2E900A4D00C2D9EE /* SimpleShoppingApp2 */,
+				EDCFA0B12E900A4E00C2D9EE /* SimpleShoppingApp2Tests */,
+				EDCFA0BB2E900A4E00C2D9EE /* SimpleShoppingApp2UITests */,
+				EDCFA0992E900A4D00C2D9EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDCFA0992E900A4D00C2D9EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDCFA0982E900A4D00C2D9EE /* SimpleShoppingApp2.app */,
+				EDCFA0AE2E900A4E00C2D9EE /* SimpleShoppingApp2Tests.xctest */,
+				EDCFA0B82E900A4E00C2D9EE /* SimpleShoppingApp2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDCFA0972E900A4D00C2D9EE /* SimpleShoppingApp2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDCFA0C12E900A4E00C2D9EE /* Build configuration list for PBXNativeTarget "SimpleShoppingApp2" */;
+			buildPhases = (
+				EDCFA0942E900A4D00C2D9EE /* Sources */,
+				EDCFA0952E900A4D00C2D9EE /* Frameworks */,
+				EDCFA0962E900A4D00C2D9EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EDCFA09A2E900A4D00C2D9EE /* SimpleShoppingApp2 */,
+			);
+			name = SimpleShoppingApp2;
+			packageProductDependencies = (
+				EDCFA11B2E9010A000C2D9EE /* RxCocoa */,
+				EDCFA11D2E9010A000C2D9EE /* RxSwift */,
+			);
+			productName = SimpleShoppingApp2;
+			productReference = EDCFA0982E900A4D00C2D9EE /* SimpleShoppingApp2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDCFA0AD2E900A4E00C2D9EE /* SimpleShoppingApp2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDCFA0C62E900A4E00C2D9EE /* Build configuration list for PBXNativeTarget "SimpleShoppingApp2Tests" */;
+			buildPhases = (
+				EDCFA0AA2E900A4E00C2D9EE /* Sources */,
+				EDCFA0AB2E900A4E00C2D9EE /* Frameworks */,
+				EDCFA0AC2E900A4E00C2D9EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDCFA0B02E900A4E00C2D9EE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EDCFA0B12E900A4E00C2D9EE /* SimpleShoppingApp2Tests */,
+			);
+			name = SimpleShoppingApp2Tests;
+			packageProductDependencies = (
+			);
+			productName = SimpleShoppingApp2Tests;
+			productReference = EDCFA0AE2E900A4E00C2D9EE /* SimpleShoppingApp2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDCFA0B72E900A4E00C2D9EE /* SimpleShoppingApp2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDCFA0C92E900A4E00C2D9EE /* Build configuration list for PBXNativeTarget "SimpleShoppingApp2UITests" */;
+			buildPhases = (
+				EDCFA0B42E900A4E00C2D9EE /* Sources */,
+				EDCFA0B52E900A4E00C2D9EE /* Frameworks */,
+				EDCFA0B62E900A4E00C2D9EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDCFA0BA2E900A4E00C2D9EE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EDCFA0BB2E900A4E00C2D9EE /* SimpleShoppingApp2UITests */,
+			);
+			name = SimpleShoppingApp2UITests;
+			packageProductDependencies = (
+			);
+			productName = SimpleShoppingApp2UITests;
+			productReference = EDCFA0B82E900A4E00C2D9EE /* SimpleShoppingApp2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDCFA0902E900A4D00C2D9EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					EDCFA0972E900A4D00C2D9EE = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					EDCFA0AD2E900A4E00C2D9EE = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = EDCFA0972E900A4D00C2D9EE;
+					};
+					EDCFA0B72E900A4E00C2D9EE = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = EDCFA0972E900A4D00C2D9EE;
+					};
+				};
+			};
+			buildConfigurationList = EDCFA0932E900A4D00C2D9EE /* Build configuration list for PBXProject "SimpleShoppingApp2" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDCFA08F2E900A4D00C2D9EE;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				EDCFA11A2E9010A000C2D9EE /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EDCFA0992E900A4D00C2D9EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDCFA0972E900A4D00C2D9EE /* SimpleShoppingApp2 */,
+				EDCFA0AD2E900A4E00C2D9EE /* SimpleShoppingApp2Tests */,
+				EDCFA0B72E900A4E00C2D9EE /* SimpleShoppingApp2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDCFA0962E900A4D00C2D9EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCFA0AC2E900A4E00C2D9EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCFA0B62E900A4E00C2D9EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDCFA0942E900A4D00C2D9EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCFA0AA2E900A4E00C2D9EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCFA0B42E900A4E00C2D9EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDCFA0B02E900A4E00C2D9EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDCFA0972E900A4D00C2D9EE /* SimpleShoppingApp2 */;
+			targetProxy = EDCFA0AF2E900A4E00C2D9EE /* PBXContainerItemProxy */;
+		};
+		EDCFA0BA2E900A4E00C2D9EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDCFA0972E900A4D00C2D9EE /* SimpleShoppingApp2 */;
+			targetProxy = EDCFA0B92E900A4E00C2D9EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EDCFA0C22E900A4E00C2D9EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N4G9DBRFJU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimpleShoppingApp2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimpleShoppingApp.SimpleShoppingApp2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDCFA0C32E900A4E00C2D9EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N4G9DBRFJU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimpleShoppingApp2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimpleShoppingApp.SimpleShoppingApp2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDCFA0C42E900A4E00C2D9EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = N4G9DBRFJU;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDCFA0C52E900A4E00C2D9EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = N4G9DBRFJU;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDCFA0C72E900A4E00C2D9EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N4G9DBRFJU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimpleShoppingApp.SimpleShoppingApp2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleShoppingApp2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimpleShoppingApp2";
+			};
+			name = Debug;
+		};
+		EDCFA0C82E900A4E00C2D9EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N4G9DBRFJU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimpleShoppingApp.SimpleShoppingApp2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleShoppingApp2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimpleShoppingApp2";
+			};
+			name = Release;
+		};
+		EDCFA0CA2E900A4E00C2D9EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N4G9DBRFJU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimpleShoppingApp.SimpleShoppingApp2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleShoppingApp2;
+			};
+			name = Debug;
+		};
+		EDCFA0CB2E900A4E00C2D9EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N4G9DBRFJU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimpleShoppingApp.SimpleShoppingApp2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleShoppingApp2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDCFA0932E900A4D00C2D9EE /* Build configuration list for PBXProject "SimpleShoppingApp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDCFA0C42E900A4E00C2D9EE /* Debug */,
+				EDCFA0C52E900A4E00C2D9EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDCFA0C12E900A4E00C2D9EE /* Build configuration list for PBXNativeTarget "SimpleShoppingApp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDCFA0C22E900A4E00C2D9EE /* Debug */,
+				EDCFA0C32E900A4E00C2D9EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDCFA0C62E900A4E00C2D9EE /* Build configuration list for PBXNativeTarget "SimpleShoppingApp2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDCFA0C72E900A4E00C2D9EE /* Debug */,
+				EDCFA0C82E900A4E00C2D9EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDCFA0C92E900A4E00C2D9EE /* Build configuration list for PBXNativeTarget "SimpleShoppingApp2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDCFA0CA2E900A4E00C2D9EE /* Debug */,
+				EDCFA0CB2E900A4E00C2D9EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EDCFA11A2E9010A000C2D9EE /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EDCFA11B2E9010A000C2D9EE /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EDCFA11A2E9010A000C2D9EE /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		EDCFA11D2E9010A000C2D9EE /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EDCFA11A2E9010A000C2D9EE /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EDCFA0902E900A4D00C2D9EE /* Project object */;
+}
