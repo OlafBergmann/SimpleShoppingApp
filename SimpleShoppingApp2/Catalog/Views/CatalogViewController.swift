@@ -34,12 +34,12 @@ final class CatalogViewController: UIViewController {
         
         tableView.register(ProductCell.self, forCellReuseIdentifier: ProductCell.identifier)
         tableView.rowHeight = 80
-        
-        
     }
-    // MARK: - Bind ViewModel
     
+    // MARK: - Bind ViewModel
     private func bindViewModel() {
+        viewModel.load()
+        
         viewModel.products
             .observe(on: MainScheduler.instance)
             .bind(to: tableView.rx.items(cellIdentifier: ProductCell.identifier, cellType: ProductCell.self)) { [weak self] _, product, cell in
@@ -81,9 +81,6 @@ final class CatalogViewController: UIViewController {
                 }
             })
             .disposed(by: disposeBag)
-        
-        
-        viewModel.load()
     }
     
 }

@@ -9,15 +9,15 @@ import UIKit
 
 final class BasketCoordinator: Coordinator {
     var navigationController: UINavigationController
-
+    
     private let basketVM: BasketViewModel?
-
+    
     init(navigationController: UINavigationController,
          basketVM: BasketViewModel) {
         self.navigationController = navigationController
         self.basketVM = basketVM
     }
-
+    
     func start() {
         guard let basketVM else { return }
         let basketVC = BasketViewController(viewModel: basketVM)

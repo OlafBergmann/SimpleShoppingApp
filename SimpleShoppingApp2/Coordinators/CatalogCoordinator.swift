@@ -9,22 +9,19 @@ import UIKit
 
 final class CatalogCoordinator: Coordinator {
     var navigationController: UINavigationController
-    private let currencyService: CurrencyService
     private let mockService: MockService
     private let basketVM: BasketViewModel?
-
+    
     init(navigationController: UINavigationController,
          mockService: MockService,
-         currencyService: CurrencyService,
          basketVM: BasketViewModel) {
         self.navigationController = navigationController
         self.mockService = mockService
-        self.currencyService = currencyService
         self.basketVM = basketVM
     }
-
+    
     func start() {
-        let catalogVM = CatalogViewModel(service: mockService, currencyService: currencyService)
+        let catalogVM = CatalogViewModel(service: mockService)
         guard let basketVM else { return }
         let catalogVC = CatalogViewController(viewModel: catalogVM, basketVM: basketVM)
         catalogVM.coordinator = self

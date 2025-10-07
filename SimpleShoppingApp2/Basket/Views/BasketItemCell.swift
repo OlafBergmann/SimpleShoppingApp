@@ -10,7 +10,7 @@ import RxSwift
 import RxCocoa
 
 final class BasketItemCell: UITableViewCell {
-
+    
     let nameLabel = UILabel()
     let quantityLabel = UILabel()
     let minusButton = UIButton(type: .system)
@@ -26,22 +26,22 @@ final class BasketItemCell: UITableViewCell {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-
+    
     private func setupUI() {
         minusButton.setTitle("–", for: .normal)
         plusButton.setTitle("+", for: .normal)
         quantityLabel.textAlignment = .center
-
+        
         let stack = UIStackView(arrangedSubviews: [minusButton, quantityLabel, plusButton])
         stack.axis = .horizontal
         stack.spacing = 2
         stack.alignment = .center
-
+        
         let mainStack = UIStackView(arrangedSubviews: [nameLabel, stack])
         mainStack.axis = .horizontal
         mainStack.spacing = 16
         mainStack.distribution = .fillProportionally
-
+        
         mainStack.translatesAutoresizingMaskIntoConstraints = false
         contentView.addSubview(mainStack)
         NSLayoutConstraint.activate([

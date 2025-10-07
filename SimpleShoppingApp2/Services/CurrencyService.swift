@@ -30,9 +30,6 @@ final class CurrencyService {
         return amountUSD * (exchangeRates[key] ?? 1.0)
     }
 
-//    var availableCurrencies: [String] {
-//        return exchangeRates.keys.map { $0.replacingOccurrences(of: "USD", with: "") }.sorted()
-//    }
     var availableCurrencies: [String] {
         // Start with USD
         var currencies = ["USD"]
